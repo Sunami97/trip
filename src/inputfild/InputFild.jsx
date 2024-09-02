@@ -13,6 +13,8 @@ export default function InputFild({ setList }) {
 			alert(inputText.trim() === ''
 				? '내용을 입력해주세요'
 				: '2글자 이상 입력해주세요');
+
+			return;
 		}
 
 		setList((prev) => {
